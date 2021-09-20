@@ -29,7 +29,7 @@ filtrado.reverse();  //metodo reverse - troca toda a ordem o indice 0 vira o ult
 console.log(`Invertendo a ordem: ${filtrado}`);
 console.log();
 
-filtrado.splice(1,0, "a",9,"0");   // metodo splice - passa dois parametros o primeiro definie aonde começa o indice no caso começa após 0 ou seja 1, o segundo parametro fala se remove ou não nesse caso n remove nenhum indice
+filtrado.splice(1,0, "a",9,"0");   // metodo splice - passa tres parametros o primeiro definie aonde começa o indice no caso começa após 0 ou seja 1, o segundo parametro fala se remove ou não nesse caso n remove nenhum indice, o terceiro pode adicionar o que dizer na lista
 console.log(filtrado);
 filtrado.splice(1,3);    //metodo splice - esse metodo estou apagando apenas as duas sring que coloquei antes
 console.log(filtrado);
